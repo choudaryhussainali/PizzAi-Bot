@@ -5,6 +5,8 @@
 
 ---
 
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-f06) ![Python](https://img.shields.io/badge/Built%20with-Pyhton-yellow) ![License](https://img.shields.io/badge/License-MIT-green) ![Made with ❤](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red) 
+
 ## ✨ Features
 - **Natural conversation** – greets, asks clarifying questions, and confirms the order.
 - **Full menu handling** – pizzas (sizes & toppings), sides, and drinks with prices.
