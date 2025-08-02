@@ -1,4 +1,6 @@
-# 🍕 Pizza Order Bot
+# 🍕 PizzAi - AI-Based Pizza Ordering Web App
+
+
 
 > **AI‑powered pizza ordering assistant built with Streamlit and Groq’s LLaMA 3 (`llama3‑70b‑8192`).**  
 > The bot chats like a real server, takes complete orders, confirms delivery or pickup, summarises the bill, and can be extended with payment or POS hooks.
