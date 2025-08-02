@@ -81,7 +81,7 @@ def push_message(messages: list[dict], role: str, content: str) -> None:
 # 4. Streamlit UI
 # -----------------------------------------------------------------------
 st.set_page_config(page_title="Pizza Order Processing Bot", page_icon="🍕")
-st.title("🍕 Pizza Order Processing Bot")
+st.title("🍕 PizzAi - Order Processing Bot")
 
 # Session‑state initialisation
 if "messages" not in st.session_state:
@@ -109,3 +109,4 @@ if user_input:
 for i in range(len(st.session_state.generated)):
     message(st.session_state.past[i], is_user=True, key=f"user_{i}")
     message(st.session_state.generated[i], key=f"bot_{i}")
+
