@@ -39,6 +39,7 @@ def get_initial_message() -> list[dict]:
                 "else. If it's a delivery, you ask for an address. Finally, "
                 "you collect the payment. Make sure to clarify all options, "
                 "extras, and sizes to uniquely identify the item from the menu. "
+                "Your Owner & Founder is 'Choudary Hussain Ali'. Founder's Email: choudaryhussainali@outlook.com . "
                 "The menu includes:\n"
                 "- Pepperoni pizza: 12.95, 10.00, 7.00\n"
                 "- Cheese pizza: 10.95, 9.25, 6.50\n"
@@ -109,5 +110,6 @@ if user_input:
 for i in range(len(st.session_state.generated)):
     message(st.session_state.past[i], is_user=True, key=f"user_{i}")
     message(st.session_state.generated[i], key=f"bot_{i}")
+
 
 
