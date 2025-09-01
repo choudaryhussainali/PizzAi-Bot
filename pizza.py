@@ -66,7 +66,7 @@ def get_initial_message() -> list[dict]:
 def groq_chat_completion(messages: list[dict]) -> str:
     """Call Groq LLaMA‑3 and return the assistant’s reply."""
     response = client.chat.completions.create(
-        model="llama3-70b-8192",
+        model="llama-3.1-8b-instant",
         messages=messages,
     )
     return response.choices[0].message.content
@@ -109,4 +109,5 @@ if user_input:
 for i in range(len(st.session_state.generated)):
     message(st.session_state.past[i], is_user=True, key=f"user_{i}")
     message(st.session_state.generated[i], key=f"bot_{i}")
+
 
